@@ -1,7 +1,7 @@
 # 1kodutoo
 1. kodutöö Eesrakenduste arendamises.
 
-## Tähtaeg 08.03.2018 23:59
+## Tähtaeg 12.03.2021 23:59
 
 Kujunda kellanäide vastavalt maitsele või kindlale teemale, mahutades kella täisekraanile, et saaks kasutada lauakella või ekraanisäästja asemel. Selleks, et see sobiks paljudele ekraanidele, kasuta kujunduse loomisel protsendilisi väärtusi (nt width: 100%; ) või nt võimalda kella suurust kasutajal muuta.
 
