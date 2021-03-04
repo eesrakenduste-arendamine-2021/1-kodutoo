@@ -1,8 +1,26 @@
 const clock = document.getElementById('clock');
-
-var monthnames = ["jaanuar", "veebruar", "märts", "aprill", "mai" , "juuni",
-"juuli", "august", "september", "oktoober", "november", "detsember"];
 const currentdate = document.getElementById('date');
+document.getElementById("raam").style.backgroundColor = "whitesmoke";
+const colorpicker = document.getElementById("digclockcolor");
+const border = document.getElementById("raam");
+const savedcolor = JSON.parse(localStorage.getItem("selectedColor"));
+if(savedcolor!=null){
+    changeDigClockColor(savedcolor);
+}
+
+
+function changeDigClockColor(color){
+    border.style.backgroundColor = color;
+    currentdate.style.color = color;
+    clock.style.color = color;
+}
+
+colorpicker.addEventListener('input', ()=>{
+    const selectedcolor = colorpicker.value;
+    changeDigClockColor(selectedcolor);
+    localStorage.setItem("selectedColor", JSON.stringify(selectedcolor));
+
+}, false);
 
 
 function updateTime(time){

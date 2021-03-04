@@ -8,6 +8,10 @@ body{
     text-align: center;
 }
 
+.colorpicker{
+    color:whitesmoke;
+    font-size: 2vw;
+}
 
 .digclock{ 
     position: absolute;
