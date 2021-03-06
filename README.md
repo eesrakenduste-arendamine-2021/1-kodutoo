@@ -1,7 +1,7 @@
 https://www.tlu.ee/~karljk/eesrakendused/kodutoo/
 
 Funktsionaalsused:
-1. On võimalik muuta kellaraami ja selle sisu värvust, mis ka salvestub.
+1. On võimalik muuta kella värvust, mis ka salvestub.
 2. Kellale vajutades muutub kella formaat. (24h/12h)
 3. Nooleklahv üles muudab kella suuremaks, nooleklahv alla muudab kella väiksemaks.
 
