@@ -1,51 +1,54 @@
-body{
+body {
     background-color: #1c1a1a;
     margin: 0;
-} 
+}
 
-.digclockcontainer{
+#raam {
+    background-color: whitesmoke;
+}
+
+.digclockcontainer {
     cursor: pointer;
     position: relative;
     text-align: center;
 }
 
-.colorpicker{
-    color:whitesmoke;
+.colorpicker {
+    color: whitesmoke;
     font-size: 2vw;
 }
 
-.digclock{ 
+.digclock {
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:whitesmoke;
+    color: whitesmoke;
     text-align: center;
-    font-size:4vw;
     font-family: 'Press Start 2P';
 }
 
-.date{
+.date {
     position: absolute;
-    top:55%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:whitesmoke;
+    color: whitesmoke;
     text-align: center;
-    font-size:1.5vw;
+    font-size: 1.5vw;
     font-family: 'Press Start 2P';
 }
 
-.github{
+.github {
     position: absolute;
-    left: 47.5%;
-    width: 4vw; 
-    height: 4vw; 
+    top: 93%;
+    font-size: 1.5vw;
 }
 
-.autor{
+.autor {
+    left: 5%;
+    font-size: 1.5vw;
     position: absolute;
     color: whitesmoke;
-    
-    top: 95%;
+    top: 94%;
 }
