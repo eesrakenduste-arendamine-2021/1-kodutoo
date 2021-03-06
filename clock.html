@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Kell</title>
+</head>
+<body>
+    <div class = "autor">
+        <span id="nimi">Hans-Märten Liiu</span>
+    </div>
+    <a href="https://github.com/hansm4543/1-kodutoo" style="background-color:#ffc400">Klikka siia, et liikuda repositooriumisse!</a>
+    <br>
+
+
+    <audio id="Music">
+        <source src="muusika.mp3" type="audio/mpeg">
+      </audio>
+      <p>Muusika player</p>  
+      <button onclick="playmusic()" type="button">Mängi</button>
+      <button onclick="stopmusic()" type="button">Peata</button> 
+      <script>
+      var x = document.getElementById("Music"); 
+      
+      function playmusic() { 
+        x.play(); 
+      } 
+      
+      function stopmusic() { 
+        x.pause(); 
+      } 
+      </script>
+
+
+
+    <p>Kella suuruse muutmine</p>
+    <button id="button1">Suurenda</button>
+    <br>
+    <button id="button2">Vähenda</button>
+
+    <div id="clock">
+        <span id="hours"></span> : <span id="minutes"></span> : <span id="seconds"></span>
+        <br>
+        <span id="weekday"></span>, <span id="day"></span>. <span id="month"></span> <span id="year"></span>
+    </div>
+
+
+    <script src="clock.js" defer></script>
+    
+
+
+    
+</body>
+</html>
