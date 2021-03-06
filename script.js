@@ -8,6 +8,19 @@ if(savedcolor!=null){
     changeDigClockColor(savedcolor);
 }
 
+const clockcontainer = document.querySelector('.digclockcontainer');
+
+
+//TODO analog clock, somethin somethin more
+clockcontainer.addEventListener('click', ()=>{
+    
+    if(window.getComputedStyle(clock).display === "none"){
+        clock.style.display = "inline";
+    } else {
+        clock.style.display = "none";
+    }
+});
+
 
 function changeDigClockColor(color){
     border.style.backgroundColor = color;

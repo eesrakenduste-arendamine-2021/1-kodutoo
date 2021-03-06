@@ -4,6 +4,7 @@ body{
 } 
 
 .digclockcontainer{
+    cursor: pointer;
     position: relative;
     text-align: center;
 }
