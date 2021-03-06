@@ -18,13 +18,14 @@
 * Lehel on viide rakenduse repositooriumile
 * `README.md` failis on välja toodud autori nimi, ekraanipilt rakendusest ja kirjeldatud funktsionaalsus
  
+## Mobiilse vaate kuvatõmmised
+<p float="left">
+  <img src="screenshots/Mob_screenshot_1.jpg" width="300" />
+  <img src="screenshots/Mob_screenshot_2.jpg" width="300" /> 
+</p>
+
+
 ## Kuvatõmmised
 ![Source code](screenshots/screenshot.jpg)
 ![Source code](screenshots/screenshot2.jpg)
 ![Source code](screenshots/screenshot3.jpg)
-
-## Mobiilse vaate kuvatõmmised
-<p float="left">
-  <img src="screenshots/Mob_screenshot_1.jpg" width="440" />
-  <img src="screenshots/Mob_screenshot_2.jpg" width="440" /> 
-</p>
