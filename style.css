@@ -1,0 +1,53 @@
+#clock {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 80px;
+    border: 3px solid black;
+    background: orange;
+    font-style: italic;
+    font-weight: bold;
+}
+button {
+    background-color: red; /* Green */
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid black;
+}
+button:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+
+}
+#button1{
+    background-color: coral;
+}
+#button2{
+    background-color: coral;
+}
+
+#button1:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+    color: darkgreen;
+}
+#button2:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+    color: red;
+}
+
+
+body{
+    background-image: url("mees.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position:unset; /* Center the image */
+    background-repeat: repeat;
+    background-size: cover;
+    font-size: 25px;
+
+}
