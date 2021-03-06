@@ -2,11 +2,12 @@
  [http://www.tlu.ee/~annelip8/eesrakendused/homework/clock/](http://www.tlu.ee/~annelip8/eesrakendused/homework/clock/)
  
 ## Funktsionaalsused_1
-* Tehes kellaaja peal topeltkliki, muutub kellaaeg suuremaks. Uuesti topeltklikkides taastub algne suurus.
-* Hiirega nädalapäeva kohale jõudes, nädalapäeva enam ei näidata
-* Nupu "Vaheta värvi" abil määratakse kellaajale ning kuupäevale (sh nädalapäevale) suvaline värvitoon
-* Nupu "Vaheta pilti" abil määratakse uus taustapilt
-* Nupu "Reset" abil määratakse elementidele algupärane kujundus
+* Hiirega nädalapäeva kohale jõudes nädalapäeva enam ei näidata
+    * Mobiilses seadmes tuleb sama tulemuse saamiseks nädalapäeva peal "klikata"
+* Kellaaeg muutub topeltkliki peale suuremaks (juhul, kui brauser on laiem > 615px). Uuesti topeltklikkides taastub algne suurus.
+* Nupu `Vaheta värvi` abil määratakse kellaajale ning kuupäevale (sh nädalapäevale) suvaline värvitoon
+* Nupu `Vaheta pilti` abil määratakse uus taustapilt
+* Nupu `Reset` abil määratakse elementidele algupärane kujundus
  
 ## Funktsionaalsused_2
 * Veebirakendus töötab. Näitab kella, kuupäeva, nädalapäeva ja aastat.
@@ -21,3 +22,9 @@
 ![Source code](screenshots/screenshot.jpg)
 ![Source code](screenshots/screenshot2.jpg)
 ![Source code](screenshots/screenshot3.jpg)
+
+## Mobiilse vaate kuvatõmmised
+<p float="left">
+  <img src="screenshots/Mob_screenshot_1.jpg" width="440" />
+  <img src="screenshots/Mob_screenshot_2.jpg" width="440" /> 
+</p>

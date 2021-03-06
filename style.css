@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
 }
 
 main {
@@ -9,6 +10,8 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
 }
 
 #buttonContainer {
@@ -30,7 +33,6 @@ button {
     border-radius: 10px;
     border: 2px solid transparent;
     cursor: pointer;
-    /* font-weight: bold; */
     transition: border 0.3s;
     font-family: 'EB Garamond', serif;
 }
@@ -61,6 +63,7 @@ button:hover {
 
 #timeAndDateContainer {
     color: white;
+    text-shadow: 2px 2px 8px #111;
     font-size: 1.8em;
     font-weight: bold;
     display: flex;
