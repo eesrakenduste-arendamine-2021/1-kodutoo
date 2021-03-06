@@ -62,8 +62,7 @@ function stop12interval() {
 }
 
 
-
-//TODO analog clock, somethin somethin more
+//Klikkides kellale muutub kella formaat
 clockcontainer.addEventListener('click', () => {
 
     if (window.getComputedStyle(clock24).display === "none") {
