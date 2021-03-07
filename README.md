@@ -12,4 +12,5 @@ Peida nupuga saab peita m천lemad nupud 채ra. "Peida" nupp muutub "Ava" nupuks l�
 
 "Vaheta tagatausta v채rvi" nupp muudab tagatausta v채rvi iga kord peale vajutades erinevaks listi asetatud v채rviks. Kui listis v채rvid otsa saavad, siis algab v채rvide ring otsast peale.
 
-![Ekraanipilt rakendusest](ekraanipilt.png)
+![Ekraanipilt 1](ekraanipilt.png)
+![Ekraanipilt 2](ekraanipilt2.png)
