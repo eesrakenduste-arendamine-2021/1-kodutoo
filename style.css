@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background-color: #161122;
+}
+
+div{
+    position: absolute;
+    /*keskele*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#time{
+    color: green;
+    font-size: 500%;
+    /*kast*/
+    border: 15px solid gray;
+    padding: 30px 30px;
+    border-radius: 80px;
+    background: #2B2D2F;
+  }
+
+#date{
+    color:black;
+    font-size: 150%;
+    transform: translate(-50%, 125%);
+    cursor: pointer;
+}
+
+input{
+    vertical-align: top;
+    transform: translate(0%, 700%);
+}
+
+
+#changeColorButton{
+    border: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    padding: 14px 20px;
+    border-radius: 80px;
+    visibility: visible;
+}
+
+#hideButton{
+    border: none;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    padding: 0px 20px;
+    border-radius: 80px;
+    visibility: visible;
+    transform: translate(75%, 1500%);
+}
