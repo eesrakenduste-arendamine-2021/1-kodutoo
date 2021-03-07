@@ -1,5 +1,5 @@
 # Autor: Anneli Põldaru
- [http://www.tlu.ee/~annelip8/eesrakendused/homework/clock/](http://www.tlu.ee/~annelip8/eesrakendused/homework/clock/)
+<a href="http://www.tlu.ee/~annelip8/eesrakendused/homework/clock/" target="_blank">Kella veebileht http://www.tlu.ee/~annelip8/eesrakendused/homework/clock/</a>
  
 ## Funktsionaalsused_1
 * Hiirega nädalapäeva kohale jõudes nädalapäeva enam ei näidata
@@ -11,7 +11,7 @@
  
 ## Funktsionaalsused_2
 * Veebirakendus töötab. Näitab kella, kuupäeva, nädalapäeva ja aastat.
-* Vastavalt kasutaja tegevusele on võimalik muuta **kolme** lauakella atribuuti muuta:
+* Vastavalt kasutaja tegevusele on võimalik muuta **kolme** lauakella atribuuti.
 * Kasutatud on eventListener'e ja funktsioone.
 * Kell on originaalne ning kasutajaliides on maitsekalt kujundatud kasutades CSS-i - on ise kirjutatud.
 * Autori ees- ja perenimi on lehel välja toodud
