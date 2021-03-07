@@ -1,5 +1,6 @@
 # Autor: Anneli Põldaru
-<a href="http://www.tlu.ee/~annelip8/eesrakendused/homework/clock/" target="_blank">Kella veebileht http://www.tlu.ee/~annelip8/eesrakendused/homework/clock/</a>
+## Kella veebileht:
+ [http://www.tlu.ee/~annelip8/eesrakendused/homework/clock/](http://www.tlu.ee/~annelip8/eesrakendused/homework/clock/)
  
 ## Funktsionaalsused_1
 * Hiirega nädalapäeva kohale jõudes nädalapäeva enam ei näidata
