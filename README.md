@@ -10,6 +10,8 @@ Olen lisanud EventListeneri
 Funktsioonidest on display_corona et näidata mitu päeva on möödunud koroona algusest  ja change_color et vahetada background color.
 CSS failis kirjutasin kui suured, mis värvi, mis borderiga elemendid peavad olema, kus nad peavad asuma, milline peab olema tekst ja kuidas paigutatud. Lisasin natuke interaktivsust nuppudele, nii et kui keegi hõljutab nende peale, siis nende opacity muutub jne.
 
+<img width="1264" alt="clock1" src="https://user-images.githubusercontent.com/70939482/110295431-c5f9d180-7ff9-11eb-8db2-f32be8ebb5f3.png">
+<img width="1347" alt="clock" src="https://user-images.githubusercontent.com/70939482/110295441-c8f4c200-7ff9-11eb-952b-816d407dc899.png">
 
 
 
