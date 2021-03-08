@@ -147,14 +147,8 @@ function updateDigitalClock12() {
     clock12.innerHTML = ampmhournow + ":" + minutenow + ":" + secondnow + " " + ampm;
 }
 
+var days = ["pühapäev", "esmaspäev", "teisipäev", "kolmapäev", "neljapäev", "reede", "laupäev"];
 
-//Votab listist nadalapaeva nime
-function dayOfWeek(day) {
-    const getDayOfWeek = new Date(day).getDate();
-    return isNaN(getDayOfWeek-1) ? null : ["esmaspäev", "teisipäev", "kolmapäev", "neljapäev", "reede",
-        "laupäev", "pühapäev"
-    ][getDayOfWeek-1];
-}
 
 //Votab listist kuu nime
 function monthName(month) {
@@ -167,13 +161,11 @@ function monthName(month) {
 
 //Kogub vajalikud kuupaeva andmed ja displayb need
 function updateDate() {
-    let date = new Date();
+    var date = new Date();
     var daynow = date.getDate();
-    //Varasemalt tootas var monthnow = monthName(date.getMonth() - 1); kuid nuud otsustas kood, et ta ei soovi -1'e.
     var monthnow = monthName(date.getMonth());
     var yearnow = date.getFullYear();
-    console.log(date.getMonth());
-    var dayname = dayOfWeek(daynow);
+    var dayname = days[date.getDay()];
     currentdate.innerHTML = dayname + ", " + daynow + ". " + monthnow + ", <br>" + yearnow;
 }
 
