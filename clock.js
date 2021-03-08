@@ -35,34 +35,33 @@ opentMyRepoLink.addEventListener("click", () => {
 
 function updateClock(){
     let date = new Date();
-    let seconds = date.getSeconds();
-    let minutes = date.getMinutes();
-    let hours = date.getHours();
-    if(seconds < 10){
-        seconds = "0" + seconds;
-    }
-    if(minutes < 10){
-        minutes = "0" + minutes;
-    }
-    if(hours < 10){
-        hours = "0" + hours;
-    }
+    let seconds = addZeroDigit(date.getSeconds());
+    let minutes = addZeroDigit(date.getMinutes());
+    let hours = addZeroDigit(date.getHours());
+    
     timeContainer.innerHTML = hours + ":" + minutes + ":" + seconds;
+
+    // To update shown date and weekday if the webpage is open at 00:00:00
+    if(hours == 00 && minutes == 00 && seconds == 00){
+        updateDate();
+    }
 }
 
 function updateDate(){
     let date = new Date();
-    let day = date.getDate();
-    let month = date.getMonth() + 1;
-    let weekday = date.getDay();
-    if(day < 10){
-        day = "0" + day;
-    }
-    if(month < 10){
-        month = "0" + month;
-    }
+    let day = addZeroDigit(date.getDate());
+    let month = addZeroDigit(date.getMonth() + 1);
+
     dateContainer.innerHTML = day + "." + month + "." + date.getFullYear();
-    weekdayContainer.innerHTML = weekdaysArray[weekday];
+    weekdayContainer.innerHTML = weekdaysArray[date.getDay()];
+}
+
+function addZeroDigit(timeValue){
+    if(timeValue > 9) {
+        return timeValue;
+    } else {
+        return "0" + timeValue;
+    }
 }
 
 function changeFontSice(){
@@ -75,7 +74,6 @@ function changeFontSice(){
             number = 0;
         }
     }
-    
 }
 
 function changeColor(){
