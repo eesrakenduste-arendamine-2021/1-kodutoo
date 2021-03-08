@@ -105,20 +105,6 @@ function updateTime(time) {
     }
 }
 
-//Votab listist nadalapaeva nime
-function dayOfWeek(day) {
-    return isNaN(day) ? null : ["esmaspäev", "teisipäev", "kolmapäev", "neljapäev", "reede",
-        "laupäev", "pühapäev"
-    ][day];
-}
-
-//Votab listist kuu nime
-function monthName(month) {
-    return isNaN(month) ? null : ["jaanuar", "veebruar", "märts", "aprill", "mai", "juuni",
-        "juuli", "august", "september", "oktoober", "november", "detsember"
-    ][month];
-}
-
 //Kogub koik kella andmed, viib labi funtsioonist, mis lisab nulli ette arvudele mis on 1 kohalised ja displayb kella
 function updateDigitalClock24() {
     let date = new Date();
@@ -161,6 +147,24 @@ function updateDigitalClock12() {
     clock12.innerHTML = ampmhournow + ":" + minutenow + ":" + secondnow + " " + ampm;
 }
 
+
+//Votab listist nadalapaeva nime
+function dayOfWeek(day) {
+    const getDayOfWeek = new Date(day).getDate();
+    return isNaN(getDayOfWeek-1) ? null : ["esmaspäev", "teisipäev", "kolmapäev", "neljapäev", "reede",
+        "laupäev", "pühapäev"
+    ][getDayOfWeek-1];
+}
+
+//Votab listist kuu nime
+function monthName(month) {
+    return isNaN(month) ? null : ["jaanuar", "veebruar", "märts", "aprill", "mai", "juuni",
+        "juuli", "august", "september", "oktoober", "november", "detsember"
+    ][month];
+}
+
+
+
 //Kogub vajalikud kuupaeva andmed ja displayb need
 function updateDate() {
     let date = new Date();
@@ -168,7 +172,8 @@ function updateDate() {
     //Varasemalt tootas var monthnow = monthName(date.getMonth() - 1); kuid nuud otsustas kood, et ta ei soovi -1'e.
     var monthnow = monthName(date.getMonth());
     var yearnow = date.getFullYear();
-    var dayname = dayOfWeek(daynow - 1);
+    console.log(date.getMonth());
+    var dayname = dayOfWeek(daynow);
     currentdate.innerHTML = dayname + ", " + daynow + ". " + monthnow + ", " + yearnow;
 }
 
