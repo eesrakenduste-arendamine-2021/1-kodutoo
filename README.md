@@ -43,7 +43,9 @@ Esimene kodutöö "Kellad". Elena Dunajeva.
 Teema: lemmik filmid. Ma olin valinud kolm oma lemmik filme ja nende baasil tegin disainitud kellad oma funktsionaalsusega, kasutatud HTML, JS, CSS. Kõik kellaajad vastavad Eesti ajale.
 
 
-Esimene kell "Back to the future". Back to the future on vana ameerika film, mis mulle väga meeldib.
+
+
+Esimene kell "Back to the future". "Back to the future" on vana ameerika film, mis mulle väga meeldib.
 
 ![Screenshot_2021-03-08 Back to the future](https://user-images.githubusercontent.com/55079917/110261034-392e2400-7fb7-11eb-9049-7363833ff4e0.png)
 Pildil saab näha nupp"Kell "Ticket to Vegas", nupp "On the sea", kell, kuupäev, nupp "vaheta tausta värv", nupp "season 1", nupp "season 3", all on tekst koos dünaamilise elemendiga, repositoorium koos nimega.
