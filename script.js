@@ -174,7 +174,7 @@ function updateDate() {
     var yearnow = date.getFullYear();
     console.log(date.getMonth());
     var dayname = dayOfWeek(daynow);
-    currentdate.innerHTML = dayname + ", " + daynow + ". " + monthnow + ", " + yearnow;
+    currentdate.innerHTML = dayname + ", " + daynow + ". " + monthnow + ", <br>" + yearnow;
 }
 
 start24interval();
