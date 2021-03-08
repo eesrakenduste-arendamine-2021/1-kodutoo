@@ -1,0 +1,77 @@
+<!-- EventListener, muudakse tasust päev/öö, slideshow, muudakse kuupäeva font-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="ticketToVegas.js" defer></script>
+    <link rel="stylesheet" href="ticketToVegas.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Ticket to Vegas</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <!--nuppud päev/öö-->
+            <button id="btn-blue">ÖÖ</button>
+            <button id="btn-white">Päev</button>
+        </div>
+    </div>
+    <!--nuppud mis viivad teistele failidele (kellad)-->
+    <button id="buttonBackToTheFuture"><a href="file:///C:/Users/dunaj/OneDrive/Desktop/Eesrakenduste-arendamine/1-kodut%C3%B6%C3%B6/backToTheFuture.html">Kell "Ticket to Vegas" </a></button>
+    <button id="buttonOnTheSea"><a href="file:///C:/Users/dunaj/OneDrive/Desktop/Eesrakenduste-arendamine/1-kodut%C3%B6%C3%B6/onTheSea.html">Kell "On the Sea"</a></button>
+    <h1>Kell "Ticket to Vegas" filmi järgi</h1>
+
+    <!--nuppud mis lasevad muuta kuupäeva font värvi-->
+    <div class="buttonChangeColor">
+        <button id="changeGreen">Rohelist värvi kuupäev</button>
+        <button id="changeRed">Punast värvi kuupäev</button>
+        <button id="changeYellow">Kollast värvi kuupäev</button>
+        <button id="changeBlue">Sinist värvi kuupäev</button>
+        <button id="changeViolet">Lilla värvi kuupäev</button>
+        <button id="changeBlack">Musta värvi kuupäev</button>
+    </div>
+    <br>
+    <!-- kell-->
+    <div id="clock"><span id="hours"></span>:<span id="minutes"></span>:<span id="seconds"></span></div>
+    <!--kuupäev-->
+    <div id="date"><span id="day"></span>:<span id="month"></span>:<span id="year"></span></div>
+    <br>
+    <!--slideshow-->
+    <div class="slideShow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+        <img src="ticket_to_vegas.jpg" style="width: 100%">
+        <div class="text">Plakat</div>
+    </div>
+
+    <div class="slideShow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+        <img src="ticket_to_vegas2.jpg" style="width: 100%">
+        <div class="text">Noored hämmelduses</div>
+    </div>
+
+    <div class="slideShow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+        <img src="ticket_to_vegas3.jpg" style="width: 100%">
+        <div class="text">Noored tulid puhkama ja ei kujuta ette, mis neid ees ootab</div>
+    </div>
+
+    <br>
+    <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+      <br>
+    <h4>@Elena Dunajeva, 2021</h4>
+    <p>https://github.com/elenadun/1-kodutoo.git</p>
+    
+</body>
+</html>

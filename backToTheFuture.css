@@ -1,0 +1,213 @@
+body {
+    height: 140vh;
+}
+
+#clock {
+    justify-content: center;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 80px;
+    background-image: url("molnija.jpg");
+    color: green;
+
+}
+
+#myImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 35%;
+}
+
+#date{
+    justify-content: center;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 45px;
+    color: green;
+    vertical-align: top;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.button1 {
+    padding: 13px 22px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'DotGothic16', sans-serif;
+    cursor: pointer;
+    outline: none;
+    color: yellow;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px yellow;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.button2{
+    padding: 13px 22px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'DotGothic16', sans-serif;
+    cursor: pointer;
+    outline: none;
+    color: yellow;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px yellow;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 78%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.button3 {
+    background-color: rebeccapurple;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+a {
+    color: white;
+}
+
+.button3:hover {
+    background: #f44336;
+    color: white;
+}
+
+.button4 {
+    background-color: rebeccapurple;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'DotGothic16', sans-serif;
+    float: right;
+
+}
+
+.button4:hover {
+    background: #f44336;
+    color: white;
+}
+
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'DotGothic16', sans-serif;
+    cursor: pointer;
+    outline: none;
+    color: orange;
+    background-color: purple;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px blue;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.button:hover {
+    background-color: teal;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.button:active {
+  background-color: greenyellow;
+  box-shadow: 0 5px yellowgreen;
+  transform: translateY(4px);
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+p {
+    font-family: 'Permanent Marker', cursive;
+    position: fixed;     
+    text-align: center;    
+    bottom: -10px; 
+    width: 100%;
+}
+
+h4 {
+    font-family: 'Permanent Marker', cursive;
+    position: fixed;     
+    text-align: center;    
+    bottom: 0px; 
+    width: 100%;
+}
+
+h1::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  h1:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  h1::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: hsl(100 100% 40%);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  
+  h1 {
+    position: relative;
+    font-size: 2rem;
+    font-family: 'Krona One', sans-serif;
+    position: fixed;
+    text-align: center; 
+    width: 100%;
+    bottom: 35px;
+  }
