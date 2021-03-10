@@ -5,8 +5,8 @@
 Marilii Saar
 
 # Ekraanitõmmised:
-![Ekraanitõmmis - hele taust](clock-light.jpg?raw=true "Ekraanitõmmis - hele taust")
-![Ekraanitõmmis - tume taust](clock-dark.jpg?raw=true "Ekraanitõmmis - tume taust")
+![Ekraanitõmmis - hele taust](clock-light.png?raw=true "Ekraanitõmmis - hele taust")
+![Ekraanitõmmis - tume taust](clock-dark.png?raw=true "Ekraanitõmmis - tume taust")
 
 # Funktsionaalsus:
 1. Lehel klikkides vahetub taustavärv (valgest tumelillaks ja vastupidi)
