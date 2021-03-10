@@ -14,4 +14,3 @@ Marilii Saar
 3. Üles noolt vajutades suurenevad kuupäev ja kellaaeg
 4. Alla noolt vajutades vähenevad kuupäev ja kellaaeg
 5. Reset nupp taastab lehe esialgse välimuse: kirja suuruse ja taustavärvi
-6. 
