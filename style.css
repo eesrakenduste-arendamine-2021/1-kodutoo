@@ -1,0 +1,139 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 100%;
+}
+
+.light, .light a:link, .light a:visited {
+    background-color: 	#fff;
+    color: #26004d;
+}
+
+.dark, .dark a:link, .dark a:visited {
+    background-color: #26004d;
+    color: #fff;
+}
+
+.light a:hover, .light a:active, .dark a:hover, .dark a:active {
+    color: #00cc99;
+}
+
+footer, .clock-section {
+    flex-shrink: 0;
+}
+
+.clock-section {
+    flex-grow: 1;
+    margin-top: 10%;
+}
+
+.date-container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.date-container::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: 5px;
+    right: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 20%, #00cc99 50%, rgba(0, 0, 0, 0) 80%);
+    z-index: -1;
+}
+
+.clock-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.clock-text {
+    font-size: 5em;
+    transition: transform 1s;
+}
+
+.reset {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.reset-button {
+    padding: 10px;
+    min-width: 10%;
+    background-clip: border-box;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.reset-button::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    margin: 3px;
+    border-radius: inherit;
+    border: solid 5px transparent;
+}
+
+.reset-button-light {
+    color: #26004d;
+    background: linear-gradient(to bottom right, rgb(64, 13, 145) 20%, #00cc99 50%, rgb(64, 13, 145) 80%);
+}
+
+.reset-button-light::after {
+    background-color: #fff;
+}
+
+.reset-button-dark {
+    color: #fff;
+    background: linear-gradient(to bottom right, #00cc99 20%, #fff 50%, #00cc99 80%);
+}
+
+.reset-button-dark::after {
+    background-color: #26004d;
+}
+
+.author-container {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 350px) {
+    .date-container {
+        font-size: 1.5em;
+    }
+
+    .clock-text {
+        font-size: 4em;
+    }
+
+    .author-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
