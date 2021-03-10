@@ -12,14 +12,18 @@ main {
     max-width: 100%;
 }
 
-.light {
+.light, .light a:link, .light a:visited {
     background-color: 	#fff;
     color: #26004d;
 }
 
-.dark {
+.dark, .dark a:link, .dark a:visited {
     background-color: #26004d;
     color: #fff;
+}
+
+.light a:hover, .light a:active, .dark a:hover, .dark a:active {
+    color: #00cc99;
 }
 
 footer, .clock-section {
@@ -71,7 +75,7 @@ footer, .clock-section {
 
 .reset-button {
     padding: 10px;
-    width: 10%;
+    min-width: 10%;
     background-clip: border-box;
     border: none;
     outline: none;

@@ -106,7 +106,7 @@ function setDate() {
 
     let dateContainer = document.getElementById("dateContainer");
 
-    dateContainer.innerHTML = `${weekdays[day]}, ${date}. ${months[month]} ${year}`;
+    dateContainer.innerHTML = `${weekdays[day]}, ${date}.&nbsp;${months[month]} ${year}`;
 }
 
 function addZero(i) {
