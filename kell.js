@@ -36,7 +36,7 @@ function updateClock(){
         seconds = "0" + seconds;
     }
     // Date suffixes
-    if(days == 1 || days == 21 || days == 21){
+    if(days == 1 || days == 21 || days == 31){
         suffix = "st";
     } else if(days == 2 || days == 22) {
         suffix = "nd";
