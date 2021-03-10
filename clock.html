@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="clock.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Roboto|Akaya+Telivigala|Bungee+Shade|UnifrakturMaguntia|Stick|Architects+Daughter|Faster+One|Monofett|Karla|Comfortaa|Amatic+SC">
+    <title>Kell</title>
+</head>
+<body>
+    <div id="dropdown">
+        <img id="dropButton" src="img/menu_black.png">
+        <div id="dropdown-content">
+            <p>© Harli Kodasma</p>
+            <p><a href="https://github.com/harlikodasma/1-kodutoo" target="_blank"><img src="img/github.png"></a></p>
+            <a href="http://greeny.cs.tlu.ee/~harli/vp/tund13/page.php" target="_blank"><img src="img/burgier.png" onclick="playAudio('sound/ahmiedburgier.mp3')"></a>
+        </div>
+    </div>
+    <header>
+        <button id="secondsButton">Sekundite kuvamine välja</button>
+        <button id="languageButton">Inglise keeles</button>
+        <span id="changeFont">
+            Muuda kella fonti:
+            <select id="font" onchange="changeFont (this);">
+                <option value="Comfortaa" selected="selected">Comfortaa</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Arial">Arial</option>
+                <option value="Fantasy">Fantasy</option>
+                <option value="Brush Script MT">Brush Script MT</option>
+                <option value="Courier New">Courier New</option>
+                <option value="Garamond">Garamond</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Akaya Telivigala">Akaya Telivigala</option>
+                <option value="Tangerine">Tangerine</option>
+                <option value="Roboto">Roboto</option>
+                <option value="Bungee Shade">Bungee Shade</option>
+                <option value="UnifrakturMaguntia">UnifrakturMaguntia</option>
+                <option value="Stick">Stick</option>
+                <option value="Architects Daughter">Architects Daughter</option>
+                <option value="Faster One">Faster One</option>
+                <option value="Karla">Karla</option>
+                <option value="Amatic SC">Amatic SC</option>
+            </select>
+        </span>
+    </header>
+    <div id="content">
+        <div class="timeContainer">
+            <div id="time">Kellaaeg</div>
+            <div id="date">
+                <span id="weekDay">Nädalapäev</span>, <span id="day">Päev</span> <span id="month">Kuu</span> <span id="year">Aasta</span>
+            </div>
+        </div>
+        <button id="hideHeader">Peida menüüriba</button>
+    </div>
+</body>
+</html>

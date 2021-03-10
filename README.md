@@ -1,37 +1,31 @@
-# 1kodutoo
-1. kodutöö Eesrakenduste arendamises.
+# 1. kodutöö
 
-## Tähtaeg 12.03.2021 23:59
+## Autor ja veebileht
 
-Kujunda kellanäide vastavalt maitsele või kindlale teemale, mahutades kella täisekraanile, et saaks kasutada lauakella või ekraanisäästja asemel. Selleks, et see sobiks paljudele ekraanidele, kasuta kujunduse loomisel protsendilisi väärtusi (nt width: 100%; ) või nt võimalda kella suurust kasutajal muuta.
+Autor: Harli Kodasma  
+Rakendus on kättesaadav siit: http://www.tlu.ee/~harli17/kodutoo1/clock.html
 
-## Nõuded
+## Funktsionaalsus
 
-1. Veebirakendus töötab. Näitab kella, kuupäeva, nädalapäeva ja aastat.
-1. Vastavalt kasutaja tegevusele on võimalik muuta **kolme** lauakella atribuuti muuta.
-1. Kasutatud on eventListener'e ja funktsioone.
-1. Kell on originaalne ning kasutajaliides on maitsekalt kujundatud kasutades CSS-i - peab olema ise kirjutatud. 
-1. Autori ees- ja perenimi on lehel välja toodud
-1. Lehel on viide rakenduse repositooriumile
-1. `README.md` failis on välja toodud autori nimi, ekraanipilt rakendusest ja kirjeldatud funktsionaalsus
+Lehele minnes kuvatakse _dark theme_ eeskujul kellaaeg koos sekunditega ja täielik kuupäev, sh nädalapäev.  
+Kasutajal on võimalik teha järgnevaid muudatusi:
+* Lülitada nupuvajutusega sekundite kuvamine sisse/välja
+* Muuta nupuvajutusega kuupäeva keelt: valida on inglise ja eesti keele vahel
+* Valida _dropdown_ menüüst omale meelepärane font, milles tahetakse kella vaadata
+* Peita/kuvada nupuvajutusega kogu taskbar, kus kõik eelpool nimetatud funktsionaalsus asub - et saaks täisekraanil vähemate segajatega kella näha.  
 
-## Mõned ideed võimalikeks täiendusteks (lihtsalt, et mõte hakkaks jooksma)
+Lisaks on loodud _burger dropdown_ menüü, mille peale hiirega minnes avaneb pisike aken. Aknas kuvatakse autori nime ning kahte ikooni. Githubi logoga ikoonile vajutades avatakse uus _tab_ rakenduse repositooriumile. Teisele ikoonile vajutades avatakse uus _tab_ veebiprogrammeerimise kursuse kodulehele (see asub greeny serveris ning on seega kättesaadav ainult läbi tunneli).
 
-* Vahetuda võivad taustapildid, taustal võib mängida muusika
-* Taustale klikkides muudetakse kella taustaväri
-* Kellale klõpsides muudetakse numbrite värvi või numbrite suurust;
-* Iga numbri suurust saab eraldi muuta
-* Nooleklahvidega saab kella ekraanil liigutada
-* Küsi enne kella näitamise alustamist kasutajalt tema lemmikvärv ja tee sellest lähtudes midagi
-* Muuda kella ja tausta värvi vastavalt ajale (päev/öö)
-* Kella suurus ja asukoht sõltuvad hiire asukohast ekraanil
-* Kirjatüüpi saab ka muuta, [google.com/fonts](https://www.google.com/fonts)
-* Kasutaja saab lisada või kasutajaöe näidatakse mitu kellaaega erinevatest maailma kohtadest
-* Elemendid muudavad asukohta teatud kasutaja käitumise peale.
-* Saab vahetada keelt, kellaformaati vms.
+## Ekraanipildid rakendusest
 
-## Abimaterjal
+### Muutmata avavaade
 
-* Sündmuste loetelu [HTML DOM Events](http://www.w3schools.com/jsref/dom_obj_event.asp)
-* Ajal põhinevad sündmused [JavaScript Timing Events](http://www.w3schools.com/js/js_timing.asp)
-* CSSi muutmine [HTML DOM Style Object](http://www.w3schools.com/jsref/dom_obj_style.asp)
+![Esimene screenshot](screenshots/screen1.png)
+
+### Lülitatud välja sekundite kuvamine, pandud kell inglise keelde, muudetud fonti ja peidetud menüüriba
+
+![Teine screenshot](screenshots/screen2.png)
+
+### Muudetud fonti, pandud kell inglise keelde ja mindud hiirega dropdown menüü nupu peale
+
+![Kolmas screenshot](screenshots/screen3.png)
