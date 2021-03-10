@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>clock</title>
+		<meta name="Ekke Alar Toomingas" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Karla:wght@200&display=swap" rel="stylesheet" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script src="clock.js" defer></script>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="clock">
+			<div class="timeDate">
+				<div id="timeMilitary" class="time" onload="timeMilitaryMeridiem()"></div>
+				<div id="timeMeridiem" class="time" style="display: none" onload="timeMilitaryMeridiem()"></div>
+
+				<div id="dateDMYEN" class="date" onload="dateDMY(dateEN)"></div>
+				<div id="dateDMYEE" class="date" style="display: none" onload="dateDMY(dateEE)"></div>
+			</div>
+			<div class="buttons">
+				<input type="button" id="time" value="12H" onclick="switchTime(), changeButtonTime()" />
+				<input type="button" value="EST" id="date" />
+				<input type="button" value="DARK" id="theme" />
+			</div>
+		</div>
+				<footer id="footer">
+					<div id="author">
+						<p>Ekke Alar Toomingas</p>
+						<a href="https://github.com/ekkealar/1-kodutoo">
+							<img alt="Git" src="GitHub-dark.png" width="24" height="24">
+						</a>
+					</div>
+				</footer>
+		</div>
+	</body>
+</html>
