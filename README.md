@@ -4,6 +4,10 @@
 # Autor: 
 Marilii Saar
 
+# Töö aadress:
+https://greeny.cs.tlu.ee/~marisaa/eesrakendused/1-kodutoo/
+NB! Tunnel vajalik
+
 # Ekraanitõmmised:
 ![Ekraanitõmmis - hele taust](clock-light.png?raw=true "Ekraanitõmmis - hele taust")
 ![Ekraanitõmmis - tume taust](clock-dark.png?raw=true "Ekraanitõmmis - tume taust")
