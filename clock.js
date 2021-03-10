@@ -22,7 +22,7 @@ updateClock();
 setInterval(updateClock, 1000);
 updateDate();
 
-timeContainer.addEventListener('dblclick', changeFontSice);
+timeContainer.addEventListener('dblclick', changeFontSize);
 changeColorButton.addEventListener('click', changeColor);
 resetButton.addEventListener('click', resetChanges);
 changePicButton.addEventListener('click', changePic);
@@ -64,7 +64,7 @@ function addZeroDigit(timeValue){
     }
 }
 
-function changeFontSice(){
+function changeFontSize(){
     if(window.innerWidth > 615){
         if(number == 0){
             timeContainer.style.fontSize = '5.5em';
