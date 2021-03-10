@@ -14,7 +14,7 @@ Kasutajal on võimalik teha järgnevaid muudatusi:
 * Valida _dropdown_ menüüst omale meelepärane font, milles tahetakse kella vaadata
 * Peita/kuvada nupuvajutusega kogu taskbar, kus kõik eelpool nimetatud funktsionaalsus asub - et saaks täisekraanil vähemate segajatega kella näha.  
 
-Lisaks on loodud _burger dropdown_ menüü, mille peale hiirega minnes avaneb pisike aken. Aknas kuvatakse autori nime ning kahte ikooni. Githubi logoga ikoonile vajutades avatakse uus _tab_ rakenduse repositooriumile. Teisele ikoonile vajutades avatakse uus _tab_ veebiprogrammeerimise kursuse kodulehele (see asub greeny serveris ning on seega kättesaadav ainult läbi tunneli).
+Lisaks on loodud _burger dropdown_ menüü, mille peale hiirega minnes avaneb pisike aken. Aknas kuvatakse autori nime ning kahte ikooni. Githubi logoga ikoonile vajutades avatakse uus _tab_ rakenduse repositooriumile. Teisele ikoonile vajutades avatakse uus _tab_ veebiprogrammeerimise kursuse kodulehele (see asub greeny serveris ning on seega kättesaadav ainult läbi tunneli) ning mängitakse lühike helifail.
 
 ## Ekraanipildid rakendusest
 
