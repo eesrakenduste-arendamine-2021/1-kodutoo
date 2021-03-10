@@ -1,0 +1,55 @@
+
+body {
+    background-color: #1c1a1a;
+    margin: 0;
+}
+
+#raam {
+    background-color: whitesmoke;
+}
+
+.digclockcontainer {
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+
+.colorpicker {
+    color: whitesmoke;
+    font-size: 2vw;
+}
+
+.digclock {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Press Start 2P';
+}
+
+.date {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: 'Press Start 2P';
+}
+
+.github {
+    position: absolute;
+    top: 93%;
+    font-size: 1.5vw;
+}
+
+.autor {
+    left: 5%;
+    font-size: 1.5vw;
+    position: absolute;
+    color: whitesmoke;
+    top: 94%;
+}
