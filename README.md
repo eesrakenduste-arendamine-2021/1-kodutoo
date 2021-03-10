@@ -6,5 +6,6 @@ Funktsionaalsused:
 3. Nooleklahv üles muudab kella suuremaks, nooleklahv alla muudab kella väiksemaks.
 
 Ekraanipilt
-![kt1](https://user-images.githubusercontent.com/25798556/110219369-669ba480-7ec7-11eb-9998-bca4e08c6eed.PNG)
-![kt2](https://user-images.githubusercontent.com/25798556/110219372-6a2f2b80-7ec7-11eb-8957-4024345dd5a5.PNG)
+![kt1](https://user-images.githubusercontent.com/25798556/110660846-a49d0f00-81cc-11eb-8868-47fc6c6b7dfd.PNG)
+![kt2](https://user-images.githubusercontent.com/25798556/110660853-a666d280-81cc-11eb-9ff7-248597040e0b.PNG)
+
