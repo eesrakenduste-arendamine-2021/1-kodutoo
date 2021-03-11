@@ -13,7 +13,7 @@ setTimeout(clock, 1000); };
 clock(); 
 
 let longDate = ()=>{
-	let date = new Date();
+let date = new Date();
 let year = date.getFullYear();
 let day = date.getDate();
 let days = ['Pühapäev','Esmaspäev', 'Teisipäev', 'Kolmapäev', 'Neljapäev', 'Reede', 'Laupäev', 'Pühapäev'];
@@ -40,8 +40,8 @@ function changeDateColour(){
 document.getElementById("longDate").style.color = colors2[Math.floor(Math.random()*colors.length)];
 }			
 function playMusic(){
-	audio.play();
+audio.play();
 }
 function stopMusic(){
-	audio.pause();
+audio.pause();
 }
