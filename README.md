@@ -1,5 +1,9 @@
 # 1kodutoo
 
+Veebirakenduse link:
+
+http://www.tlu.ee/~janerik5/kell/clock.html
+
 Autor:
 
 Jan-Erik Läänesaar
