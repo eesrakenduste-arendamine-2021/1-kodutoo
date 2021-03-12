@@ -1,0 +1,124 @@
+body {
+	background-image: url("day.png");
+	color: #30475e;
+	font-size: 3vw;
+	font-family: "Barlow", monospace;
+	font-weight: 400;
+	margin: 0;
+}
+
+input {
+	width: 20%;
+	height: 50%;
+	background: rgba(108, 141, 167, 0.15);
+	color: #30475e;
+	font-family: "Barlow", monospace;
+	border: 0;
+	font-size: 60%;
+	font-weight: 600;
+	border-radius: 5px;
+	outline: none;
+}
+
+input:hover {
+	background: rgba(9, 72, 209, 0.25);
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 2vw;
+	font-size: 50%;
+	background: linear-gradient(to right, rgb(141, 209, 238), rgb(237, 229, 184));
+}
+
+.author {
+	height: 100%;
+	margin: 0;
+}
+
+img {
+	margin: 0%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+img:hover {
+	opacity: 0.5;
+}
+
+p {
+	margin: 0%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.clock {
+	position: absolute;
+	width: 60vw;
+	height: 20vw;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	text-align: center;
+}
+
+.timeDate {
+	background: rgba(108, 141, 167, 0.15);
+	width: 80%;
+	height: 60%;
+	text-align: center;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.time {
+	height: 70%;
+	font-size: 300%;
+	width: 100%;
+	white-space: nowrap;
+}
+
+.date {
+	height: 30%;
+	font-size: 80%;
+}
+
+.buttons {
+	float: none;
+	text-align: center;
+	height: 40%;
+	margin-top: 10px;
+}
+
+/*-----------------dark-theme-------------------*/
+
+.dark-mode {
+	background-image: url("night.png");
+	color: rgb(237, 235, 219);
+}
+
+.dark-mode .clock .timeDate {
+	background: rgba(192, 165, 230, 0.15);
+	color: rgb(237, 235, 219);
+}
+
+.dark-mode input {
+	background: rgba(192, 165, 230, 0.15);
+	color: rgb(237, 235, 219);
+}
+
+.dark-mode input:hover {
+	background: rgba(127, 41, 247, 0.15);
+}
+
+.dark-mode #footer {
+	background: linear-gradient(to right, rgb(5, 39, 69), rgb(107, 25, 112));
+}
+
+/*----------------------AMPM---------------------*/
+
+.width .timeDate {
+	width: 100%;
+}
