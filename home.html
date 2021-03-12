@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="second.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Kell</title>
+</head>
+<body>
+<audio id="music"><source src="cd.m4a" type="audio/mpeg"></audio>
+
+<div id="buttonContainer">
+    <button type="button" id="clockChange">Muuda kella värvi</button>
+    <button type="button" id="background">Muuda taustavärvi</button>
+    <button type="button" id="muss">Äratus</button>
+    <button type="button" id="repo" onclick="location.href='https://www.google.com'">Repositoorium</button>
+</div>
+<div id="Author" class="author" onload="showAuthor()"></div>
+<div id="Clock" class="clock" onload="showTime()"></div>
+<div id="Date" class="date" onload="showDate()"></div>
+<div id="Day" class="day" onload="showDay()"></div>
+
+</body>
+</html>
