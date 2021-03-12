@@ -1,0 +1,49 @@
+.Time{
+    display: flex center;
+    justify-content: space-between;
+    height: 120px;
+    padding-left: 50%;
+    font-size: 100px;
+    text-shadow: 5px 5px rgba(255,127,80,0.6);
+    color: rgba(0,0,0, 0.904);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+div:hover{
+    text-shadow: 5px 5px rgba(128,0,0, 0.3);
+    color: rgba(0,0,0, 0.904);
+}
+
+#html{
+    background-image: url("img/taust8.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#body{
+    margin: 0px;
+    padding: 0;
+}
+
+#author{
+    height: 100px;
+    justify-content: space-evenly;
+    padding-left: 80%;
+    font-size: 30px;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	background-color: rgba(2, 2, 2, 0.3);
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+    text-align:  center;
+    color: beige;
+    text-shadow: 1.5px 1.5px rgba(107, 80, 80, 2);
+    font-size: 19px;
+}
