@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  font-family: 'Architects Daughter', cursive;
+  background-image: url('pictures/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease all;
+}
+
+#buttonContainer {
+  padding: 20px;
+  display: flex;
+  flex-direction:column;
+  width: fit-content;
+  top: 0;
+  left: 0;
+  position: absolute;
+  
+}
+
+#buttonContainer * {
+  margin: 10px;
+}
+
+button {
+  border-radius: 10px;
+  border: 10px solid transparent;
+  font-size: 18px;
+  padding: 8px;
+  color: rgb(78, 74, 74);
+  background-color:rgb(221, 221, 200);
+  cursor: pointer;
+  transition: border 0.3s;
+  font-family: 'Architects Daughter', cursive;
+}
+
+button:hover {
+  border: 7px solid rgb(138, 105, 105);
+}
+
+.timeAndDateContainer {
+  color: white;
+  font-family: 'Architects Daughter', cursive;
+  text-shadow: 3px 3px  rgb(36, 35, 35);
+  font-weight: bold;
+  margin: 0 auto;
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15%;
+  font-size: 350%;
+  
+}
+
+.autor {
+  left: 5%;
+  font-size: 1.3vw;
+  position: absolute;
+  color:navajowhite;
+  font-weight: bold;
+  bottom: 2%;
+}
+
+.github{
+  position: absolute;
+  bottom: 5px;
+  left: 40px;
+  font-size: 2vw;
+  opacity: .5;
+}
