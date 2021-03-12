@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.author{
+    color: darkblue;
+}
+.container{
+    display: inline-block;
+    background-color: #1e1e1e;
+    padding: 50px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 85%;
+    border-radius: 20px;
+    color: darkblue;
+    align-self: center;
+}
+
+.clock span{
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+.date{
+    font-size: 20px;
+    font-weight: bold;
+}
