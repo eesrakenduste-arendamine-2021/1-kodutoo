@@ -1,13 +1,13 @@
 # 1. kodutöö
-Kella veebileht: http://www.tlu.ee/~annelip8/eesrakendused/homework/clock/
+Kella veebileht: http://www.tlu.ee/~annelip8/eesrakendused/homework/clock/  
 Autor: Anneli Põldaru
 
 ## Funktsionaalsused
 * Hiirega nädalapäeva peale jõudes nädalapäeva enam ei näidata
 * Kellaaeg muutub topeltkliki peale suuremaks (juhul, kui brauser on laiem > 615px). Uuesti topeltklikkides taastub algne suurus.
-* `Vaheta värvi` nupp lisab korraga nii kellaajale, kuupäevale kui ka nädalapäevale uue värvitooni
-* `Vaheta pilti` nupp vahetab taustapilt
-* `Reset` nupp taastab elementide algupärase kujundus
+* `Vaheta värvi` nupp lisab korraga nii kellaajale, kuupäevale kui ka nädalapäevale ühe uue värvitooni
+* `Vaheta pilti` nupp vahetab taustapilti
+* `Reset` nupp taastab elementide algupärase kujunduse
 
 ## Mobiilse vaate kuvatõmmised
 <p float="left">
