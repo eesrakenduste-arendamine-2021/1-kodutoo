@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Homework.js" defer></script>
+    <link rel="stylesheet" href="Style.css">
+    <title>Clock</title>
+</head>
+<body>
+    <div id="date"></div>
+    <div id="clock"></div>
+
+    <button id="button">Vaheta värv</button>
+    <script type="text/javascript">
+    var color = ["#f5a694","#f5f394","#a4ec67","#67ecc6","#79e0ee","#d679ee","#ee7991"];
+        var i = 0;
+        document.querySelector("button").addEventListener("click",
+        function(){
+            i = i < color.length ? ++1 : 0;
+            document.querySelector("body").style.background = color[i]
+        });
+    </script>
+    <footer>
+        
+            <div id="authorContainer" class="author-container">
+                <div id="author" class="author-container">
+                    <p>Tanel Volkov</p>
+                </div>
+                <div id="repo" class="repo-container">
+                    <p><a href="https://github.com/tanelvo/" target ="_blank">Github</a></p>
+                </div>
+            </div>
+    </footer>
+</body>
+</html>

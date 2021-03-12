@@ -1,0 +1,52 @@
+body{
+    background: deepskyblue;
+    margin: 0;
+    padding: 0;
+}
+body:active {color: greenyellow}
+
+#date{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    padding-top: 15%
+}
+
+#clock {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 2%;
+  }
+
+#clock:hover{
+    color: rgb(206, 70, 93);
+}
+#button{
+    position: absolute;
+    color: white;
+    background:rgb(247, 189, 64);
+    border: none;
+    outline: none;
+    font-size: 24px;
+    text-align: center;
+    cursor:pointer;
+}
+
+  .author-container {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    font-style:normal;
+    font-family: 'Orbitron', sans-serif;
+    justify-content: space-between;
+    width: 92%;
+    margin: auto;
+}
+
+footer{
+    padding-top: 22%;
+    flex-shrink: 10;
+}
