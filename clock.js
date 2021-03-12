@@ -1,7 +1,7 @@
-const timeContainer = document.querySelector("#time");
-const dateContainer = document.querySelector("#date");
+const timeContainer = document.querySelector('#time');
+const dateContainer = document.querySelector('#date');
 const timeAndDateContainer = document.querySelector('#timeAndDateContainer');
-const weekdayContainer = document.querySelector("#weekday");
+const weekdayContainer = document.querySelector('#weekday');
 const weekdaysArray = ['pühapäev', 'esmaspäev', 'teisipäev', 'kolmapäev', 'neljapäev', 'reede', 'laupäev'];
 
 const opentMyRepoLink = document.querySelector('#toMyRepo');
@@ -11,15 +11,14 @@ const changePicButton = document.querySelector('#changePic');
 const canvas = document.querySelector('main');
 
 let r, g, b;
-const pic1 = "url('pics/1.jpg')";
-const pic2 = "url('pics/2.jpg')";
-const pic3 = "url('pics/3.jpg')";
-const pic4 = "url('pics/4.jpg')";
+const pic1 = 'url("pics/1.jpg")';
+const pic2 = 'url("pics/2.jpg")';
+const pic3 = 'url("pics/3.jpg")';
+const pic4 = 'url("pics/4.jpg")';
 let counter = 0;
 let number = 0;
 
 updateClock();
-setInterval(updateClock, 1000);
 updateDate();
 
 timeContainer.addEventListener('dblclick', changeFontSize);
@@ -28,8 +27,8 @@ resetButton.addEventListener('click', resetChanges);
 changePicButton.addEventListener('click', changePic);
 weekdayContainer.addEventListener('mouseover', removeWeekday);
 
-opentMyRepoLink.addEventListener("click", () => {
-    window.open("https://github.com/AnneliP88/1-kodutoo")
+opentMyRepoLink.addEventListener('click', () => {
+    window.open('https://github.com/AnneliP88/1-kodutoo')
 });
 
 
@@ -39,12 +38,16 @@ function updateClock(){
     let minutes = addZeroDigit(date.getMinutes());
     let hours = addZeroDigit(date.getHours());
     
-    timeContainer.innerHTML = hours + ":" + minutes + ":" + seconds;
-
+    timeContainer.innerHTML = hours + ':' + minutes + ':' + seconds;
+    
     // To update shown date and weekday if the webpage is open at 00:00:00
     if(hours == 00 && minutes == 00 && seconds == 00){
         updateDate();
     }
+    
+    // removed setInterval(updateClock, 1000) because it was not working as I hoped.
+    // requestAnimationFrame has better performance
+    requestAnimationFrame(updateClock);
 }
 
 function updateDate(){
@@ -52,7 +55,7 @@ function updateDate(){
     let day = addZeroDigit(date.getDate());
     let month = addZeroDigit(date.getMonth() + 1);
 
-    dateContainer.innerHTML = day + "." + month + "." + date.getFullYear();
+    dateContainer.innerHTML = day + '.' + month + '.' + date.getFullYear();
     weekdayContainer.innerHTML = weekdaysArray[date.getDay()];
 }
 
@@ -60,7 +63,7 @@ function addZeroDigit(timeValue){
     if(timeValue > 9) {
         return timeValue;
     } else {
-        return "0" + timeValue;
+        return '0' + timeValue;
     }
 }
 
@@ -101,12 +104,12 @@ function changePic(){
 }
 
 function removeWeekday(){
-    weekdayContainer.style.display = "none";
+    weekdayContainer.style.display = 'none';
 }
 
 function resetChanges(){
     timeAndDateContainer.style.color = 'white';
     timeContainer.style.fontSize = '2.3em';
-    canvas.style.backgroundImage = "url('pics/sky.jpg')";
-    weekdayContainer.style.display = "flex";
+    canvas.style.backgroundImage = 'url("pics/sky.jpg")';
+    weekdayContainer.style.display = 'flex';
 }
