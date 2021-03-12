@@ -24,7 +24,7 @@ function changeImage(){
 
 function changeFont(){
     if(number1 == 0){
-        time.style.fontFamily = "";
+        time.style.fontFamily = "Tahoma";
         number1 = 1;
     } else {
         time.style.fontFamily = "MingLiU-ExtB";
