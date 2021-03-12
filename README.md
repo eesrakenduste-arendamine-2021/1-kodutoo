@@ -7,4 +7,4 @@ EventListener kinnitab lehelt liikumist shortcutide kaudu.
 
 ![image](https://user-images.githubusercontent.com/22071408/110950210-3bdca080-834c-11eb-8cad-7cad630b0b4d.png)
 
-
+http://www.tlu.ee/~kkriiska/eesrakendused2021/kodutoo1/kell_body.html
