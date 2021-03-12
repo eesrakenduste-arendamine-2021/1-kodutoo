@@ -4,27 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="clock.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <title>Kell</title>
 </head>
 <body>
-    <div class="main">
-        <div class="weekday">
-            <span id="weekday"></span>
-        </div>
-        <div class="clock">
-            <span id="hours"></span>:<span id="minutes"></span>:<span id="seconds"></span><br>
-        </div>
-        <div class="date">
-            <span id="day"></span>.<span id="month"></span>.<span id="year"></span>
-        </div>
+    <div id="language">
+        <input type="radio" id="estonian" name="language" value="estonian">
+        <label for="estonian">Eesti</label><br>
+        <input type="radio" id="english" name="language" value="english">
+        <label for="english">Inglise</label><br>
+        <button id="button">Vali</button>
     </div>
-    
-    <div class="row">
-        <div class="column">repo</div>
-        <div class="column">Stella-Marii Tamme</div>
+    <div id="main">
+        <div id="weekday"></div>
+        <div id="clock"></div>
+        <div id="date"></div>
     </div>
-    
+    <div id="footer">
+        <div id="repo" onclick="location.href='https://github.com/stellamarii/1-kodutoo';">Github</div>
+        <div id="name">Stella-Marii Tamme</div>
+    </div>
 </body>
 </html>
