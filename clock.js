@@ -1,8 +1,8 @@
 let fullDate, time, hours, minutes, seconds, weekDay, weekDayNumber, day, month, year, weekDaysET, monthNumber, monthsET, secondsButton, changeFont, weekDaysEN, monthsEN, languageButton, headerButton, header, dropdown, timeContainer;
 
-weekDaysET = ["esmaspäev", "teisipäev", "kolmapäev", "neljapäev", "reede", "laupäev", "pühapäev"];
+weekDaysET = ["pühapäev", "esmaspäev", "teisipäev", "kolmapäev", "neljapäev", "reede", "laupäev"];
 monthsET = ["jaanuar", "veebruar", "märts", "aprill", "mai", "juuni", "juuli", "august", "september", "oktoober", "november", "detsember"];
-weekDaysEN = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+weekDaysEN = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 monthsEN = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 time = document.querySelector("#time");
@@ -38,9 +38,9 @@ function refresh() {
 
     weekDayNumber = fullDate.getDay();
     if(languageButton.innerHTML == "Inglise keeles") {
-        weekDay.innerHTML = weekDaysET[weekDayNumber - 1];
+        weekDay.innerHTML = weekDaysET[weekDayNumber];
     } else {
-        weekDay.innerHTML = weekDaysEN[weekDayNumber - 1];
+        weekDay.innerHTML = weekDaysEN[weekDayNumber];
     }
 
     if(languageButton.innerHTML == "Inglise keeles") {
