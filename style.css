@@ -1,0 +1,111 @@
+body {
+    margin: 0vw;
+    background-image: url("img/background.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#content {
+    margin: 1.5%;
+}
+
+.timeContainer {
+    margin: 0 auto;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 14%;
+    color: #EFF7FF;
+    /*border: 10px solid #253253;
+    border-radius: 30px;
+    padding: 5%;*/
+}
+
+#date {
+    margin-top: 3.5%;
+    font-size: 400%;
+}
+
+header {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    background: rgba(22, 25, 32, 0.6);
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+#dropButton {
+    background-color: #323b4e;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+}
+
+#dropButton:hover {
+    background-color: #34415e;
+}
+
+#dropdown {
+    position: fixed;
+    display: inline-block;
+}
+
+#dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 120px;
+    min-height: 80px;
+    padding-left: 15%;
+    border-radius: 10px;
+}
+
+#dropdown:hover #dropdown-content {
+    display: block;
+}
+
+button {
+    min-width: 8%;
+    background-color: #323b4e;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+select {
+    background-color: #323b4e;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    appearance: none;
+}
+
+#time {
+    font-size: 1000%;
+}
+
+#changeFont {
+    color: #687580;
+}
+
+#hideHeader {
+    /*margin-top: 13.5%;*/
+    position: absolute;
+    bottom: 2%;
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+video {
+    display: none;
+}
