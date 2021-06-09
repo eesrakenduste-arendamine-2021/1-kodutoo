@@ -42,7 +42,15 @@ function changeBackground(){
     main.style.backgroundColor = 'rgba('+ r +','+ g +','+ b +',' + a +')';
 }
 
+//const weekday = document.getElementById('weekday');
+let date = new Date();
+let weekday = date.getDay();
+let wDay = [
+        'Pühapäev', 'Esmaspäev', 'Teisipäev', 'Kolmapäev', 
+        'Neljapäev', 'Reede', 'Laupäev'
+    ];
 
+document.getElementById('weekday').innerHTML = wDay[weekday];
 
 
 
