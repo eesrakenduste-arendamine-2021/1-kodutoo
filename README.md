@@ -1,9 +1,15 @@
 # 1kodutoo
 1. kodutöö Eesrakenduste arendamises.
+Kadri Alumets
 
 ## Tähtaeg 12.03.2021 23:59
+* Kell ning kuupäev muutuvad suuremaks, kui hiir nende peale liigub. Samuti muutuvad kella ja kuupäeva värvid.
+* Tausta värv muutub taustale klikkides.
+* Nädalapäev muutub väiksemaks, kui hiir peale liigub. Muutub ka värv.
+* Taustavärvi saab resetida.
 
-Kujunda kellanäide vastavalt maitsele või kindlale teemale, mahutades kella täisekraanile, et saaks kasutada lauakella või ekraanisäästja asemel. Selleks, et see sobiks paljudele ekraanidele, kasuta kujunduse loomisel protsendilisi väärtusi (nt width: 100%; ) või nt võimalda kella suurust kasutajal muuta.
+<img width="955" alt="screen1" src="https://user-images.githubusercontent.com/14089778/121310703-505d1480-c90c-11eb-8ca0-b284eacf465d.png">
+
 
 ## Nõuded
 
