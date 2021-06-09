@@ -42,6 +42,7 @@ body{
 
 #weekday{
     font-size: 7vw;
+    color: rgb(219, 219, 219);
 }
 
 #weekday:hover{
