@@ -1,6 +1,7 @@
 # 1kodutoo
 1. kodutöö Eesrakenduste arendamises.
-Kadri Alumets
+Kadri Alumets 
+https://greeny.cs.tlu.ee/~kadralu/eesrak/1_kodutoo/
 
 ## Tähtaeg 12.03.2021 23:59
 * Kell ning kuupäev muutuvad suuremaks, kui hiir nende peale liigub. Samuti muutuvad kella ja kuupäeva värvid.
