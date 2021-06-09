@@ -8,7 +8,8 @@ Kadri Alumets
 * Nädalapäev muutub väiksemaks, kui hiir peale liigub. Muutub ka värv.
 * Taustavärvi saab resetida.
 
-<img width="955" alt="screen1" src="https://user-images.githubusercontent.com/14089778/121310703-505d1480-c90c-11eb-8ca0-b284eacf465d.png">
+<img width="946" alt="screen1" src="https://user-images.githubusercontent.com/14089778/121314497-13931c80-c910-11eb-968c-cb98d1f7b693.png">
+
 
 
 ## Nõuded
